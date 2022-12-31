@@ -1,0 +1,26 @@
+.cartItem {
+  img {
+    width: 400px;
+    height: 400px;
+  }
+  .productBody {
+    padding-top: 50px;
+
+    .productQuantity {
+      font-size: 18px;
+      span {
+        font-weight: bold;
+      }
+    }
+    .productPrice {
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+
+      span {
+        color: green;
+        font-weight: bold;
+      }
+    }
+  }
+}

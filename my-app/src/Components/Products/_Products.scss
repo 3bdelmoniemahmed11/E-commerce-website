@@ -1,0 +1,26 @@
+.filter-buttons {
+  @include d_flex_center(row);
+}
+.card.product {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  box-shadow: 2px 2px 4px 4px rgba(140, 140, 141, 0.549);
+  .card-img-top {
+    transition: all 0.3s;
+    height: 250px;
+    &:hover {
+      transform: scale(0.8);
+    }
+  }
+  .card-body .card-text {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .card-body .card-desc {
+    height: 200px;
+  }
+}
