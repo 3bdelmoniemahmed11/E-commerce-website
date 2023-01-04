@@ -47,7 +47,7 @@ const Header = () => {
               </li>
             </ul>
             <div className="buttons">
-              <NavLink to="/login" className="btn btn-outline-dark ms-2">
+              <NavLink to="/login" className="btn btn-outline-dark ms-lg-2">
                 <i className="fa fa-sign-in me-1"></i>
                 Login
               </NavLink>

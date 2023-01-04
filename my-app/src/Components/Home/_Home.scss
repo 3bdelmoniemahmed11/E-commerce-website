@@ -1,3 +1,12 @@
 .card .card-img-overlay {
   @include d_flex_center(column);
 }
+.container .card-title,
+.container .card-text {
+  @include mediaMaxWidth(576px) {
+    font-size: 15px !important;
+  }
+  @include mediaMaxWidth(364px) {
+    font-size: 30px !important;
+  }
+}

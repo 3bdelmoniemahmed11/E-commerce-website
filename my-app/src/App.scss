@@ -4,3 +4,16 @@
 @import "../src/Components/Products/Products.scss";
 @import "../src/Components/Product/Product";
 @import "../src/Components//Cart/Cart";
+@import "../src/Components/About//About";
+@import "../src/Components/Contact/Contact.scss";
+@import "../src/Components/Login/Login";
+@include mediaMinWidth(2000px) {
+  body {
+    zoom: 1.2;
+  }
+}
+@include mediaMinWidth(3000px) {
+  body {
+    zoom: 3;
+  }
+}

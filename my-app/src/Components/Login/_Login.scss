@@ -1,0 +1,6 @@
+.log-in {
+  @include wrapper;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -43,39 +43,37 @@ const Products = () => {
   const ShowProducts = () => {
     return (
       <Fragment>
-        <div className="col-md-12">
-          <div className="filter-buttons  mt-2 mb-5">
-            <button
-              className="btn btn-outline-dark ms-2"
-              onClick={() => setFilter(data)}
-            >
-              All
-            </button>
-            <button
-              className="btn btn-outline-dark ms-2"
-              onClick={() => filterProduct("men's clothing")}
-            >
-              Men's clothing
-            </button>
-            <button
-              className="btn btn-outline-dark ms-2"
-              onClick={() => filterProduct("women's clothing")}
-            >
-              Women's clothing
-            </button>
-            <button
-              className="btn btn-outline-dark ms-2"
-              onClick={() => filterProduct("jewelery")}
-            >
-              Jewelery clothing
-            </button>
-            <button
-              className="btn btn-outline-dark ms-2"
-              onClick={() => filterProduct("electronics")}
-            >
-              Electronic
-            </button>
-          </div>
+        <div className=" filter-buttons mt-2 mb-5">
+          <button
+            className="btn btn-outline-dark ms-2 mt-2 col-sm-12 col-lg-2"
+            onClick={() => setFilter(data)}
+          >
+            All
+          </button>
+          <button
+            className="btn btn-outline-dark ms-2 mt-2 col-sm-12 col-lg-2"
+            onClick={() => filterProduct("men's clothing")}
+          >
+            Men's clothing
+          </button>
+          <button
+            className="btn btn-outline-dark ms-2 mt-2 col-sm-12 col-lg-2"
+            onClick={() => filterProduct("women's clothing")}
+          >
+            Women's clothing
+          </button>
+          <button
+            className="btn btn-outline-dark ms-2 mt-2 col-sm-12 col-lg-2"
+            onClick={() => filterProduct("jewelery")}
+          >
+            Jewelery clothing
+          </button>
+          <button
+            className="btn btn-outline-dark ms-2 mt-2 col-sm-12 col-lg-2"
+            onClick={() => filterProduct("electronics")}
+          >
+            Electronic
+          </button>
         </div>
 
         {filter.map((product) => {

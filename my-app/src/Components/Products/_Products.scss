@@ -1,5 +1,6 @@
 .filter-buttons {
   @include d_flex_center(row);
+  flex-wrap: wrap;
 }
 .card.product {
   width: 100%;

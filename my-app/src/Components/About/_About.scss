@@ -1,0 +1,18 @@
+.About-us {
+  @include wrapper;
+  h2 {
+    position: relative;
+    margin-bottom: 30px;
+    &::after {
+      content: "";
+      top: 5px;
+      border-bottom: 3px solid black;
+      height: 40px;
+      width: 120px;
+      position: absolute;
+      bottom: 0px;
+      opacity: 0.5;
+      left: calc(50% - 60px);
+    }
+  }
+}

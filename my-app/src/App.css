@@ -13,10 +13,24 @@
   flex-direction: column;
 }
 
+@media (max-width: 576px) {
+  .container .card-title,
+.container .card-text {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 364px) {
+  .container .card-title,
+.container .card-text {
+    font-size: 30px !important;
+  }
+}
+
 .filter-buttons {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card.product {
@@ -107,4 +121,57 @@
 .cartItem .productBody .productPrice span {
   color: green;
   font-weight: bold;
+}
+
+.About-us {
+  padding: 40px;
+  background-color: #eee;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100px;
+}
+.About-us h2 {
+  position: relative;
+  margin-bottom: 30px;
+}
+.About-us h2::after {
+  content: "";
+  top: 5px;
+  border-bottom: 3px solid black;
+  height: 40px;
+  width: 120px;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0.5;
+  left: calc(50% - 60px);
+}
+
+.Contact {
+  padding: 40px;
+  background-color: #eee;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.log-in {
+  padding: 40px;
+  background-color: #eee;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 2000px) {
+  body {
+    zoom: 1.2;
+  }
+}
+@media (min-width: 3000px) {
+  body {
+    zoom: 3;
+  }
 }/*# sourceMappingURL=App.css.map */
