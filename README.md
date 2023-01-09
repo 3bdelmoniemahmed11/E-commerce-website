@@ -4,7 +4,7 @@
 <p>E-commerce web application that you can filter products based on product category, add products to a cart page, and you can increase and decrease the quantity of the product and remove it from the cart page</p>
 <h3>Live Link / Demo Link: 🔗</h3>
 <p>https://ecommerce-222.netlify.app/</p>
-<h3>Technologies Used: <h3>
+<h3>Technologies Used: </h3>
 <ul>
 <li>HTML5</li>
 <li>CSS3</li>
